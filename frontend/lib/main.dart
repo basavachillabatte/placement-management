@@ -1,3 +1,4 @@
+import 'screens/role_selection_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class PlacementManagementApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: const LoginScreen(),
+      home: const RoleSelectionScreen(),
     );
   }
 }
